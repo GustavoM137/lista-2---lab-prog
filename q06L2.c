@@ -75,8 +75,10 @@ int main() {
         puts("Candidato eleito: Paulo.");
     else if (paulo < renata)
         puts("Candidato eleito: Renata.");
-    else
+    else if (paulo != 0)
         puts("Empate de votos");
+    else
+        puts("Nenhum candidato recebeu votos");
 
     return 0;
 }
