@@ -2,7 +2,7 @@
 
 int main() {
     float jose_altura = 150, pedro_altura = 110, jose_crescimento = 2, pedro_crescimento = 3;
-    int anos;
+    int anos = 0;
 
     while (jose_altura != pedro_altura) {
         jose_altura += jose_crescimento;
