@@ -21,7 +21,7 @@ int main() {
             menor = num;
     }
 
-    printf("Maior: %d \nMenor: %d\n", maior, menor);
+    printf("%d * %d = %d\n", maior, menor, maior * menor);
 
     return 0;
 }
