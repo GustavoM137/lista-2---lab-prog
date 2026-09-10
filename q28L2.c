@@ -3,11 +3,11 @@
 int main() {
     unsigned char x, y, arm[8];
 
-    puts("Digite dois inteiros, com o segundo sendo maior que 4 e menor que 251:");
+    puts("Digite dois inteiros, com o segundo sendo maior que 4 e menor que 252:");
     scanf("%hhu %hhu", &x, &y);
 
     while (y < 5 || y > 251) {
-        puts("Valor inválido, digite um inteiro maior que 4 e menor que 251:");
+        puts("Valor inválido, digite um inteiro maior que 4 e menor que 252:");
         scanf("%hhu", &y);
     }
 
