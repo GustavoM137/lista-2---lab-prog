@@ -13,11 +13,9 @@ int main() {
             break;
         }
 
-        printf("Confirmar voto ");
-
         switch (voto) {
             case 5:
-                puts("em Paulo? (S para confirmar)");
+                puts("Confirmar voto em Paulo? (S para confirmar)");
                 scanf(" %c", &confirmar);
 
                 if (confirmar == 'S' || confirmar == 's') {
@@ -27,7 +25,7 @@ int main() {
                 break;
 
             case 7:
-                puts("em Renata? (S para confirmar)");
+                puts("Confirmar voto em Renata? (S para confirmar)");
                 scanf(" %c", &confirmar);
 
                 if (confirmar == 'S' || confirmar == 's') {
@@ -37,7 +35,7 @@ int main() {
                 break;
 
             case 0:
-                puts("em branco? (S para confirmar)");
+                puts("Confirmar voto em branco? (S para confirmar)");
                 scanf(" %c", &confirmar);
 
                 if (confirmar == 'S' || confirmar == 's') {
@@ -47,7 +45,7 @@ int main() {
                 break;
 
             default:
-                puts("nulo? (S para confirmar)");
+                puts("Confirmar voto nulo? (S para confirmar)");
                 scanf(" %c", &confirmar);
 
                 if (confirmar == 'S' || confirmar == 's') {
